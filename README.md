@@ -14,4 +14,7 @@
 
 # When you refresh the page then the saved events should persist
 
+# Link to deployed apllication: https://sushistarlove.github.io/purple-day-planner/
+
+
 
