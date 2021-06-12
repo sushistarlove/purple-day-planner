@@ -13,6 +13,7 @@ body {
     padding: 10px;
   }
   
+
   .jumbotron {
     text-align: center;
     background-color: transparent;
@@ -28,15 +29,16 @@ body {
   }
   
   .time-block {
-
     text-align: center;
     border-radius: 15px;
   }
   
   .row {
+    justify-content: center;
     white-space: pre-wrap;
-    height: 80px;
-    border-top: 1px solid white;
+    height: 110px;
+    background-color: lemonchiffon;
+    border: 5px 5px black;
   }
   
   .hour {
@@ -61,9 +63,9 @@ body {
   }
   
   .saveBtn {
+    font: normal;
+    font-size: 30px;
     border-left: 1px solid black;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
     background-color: #06aed5;
     color: white;
   }
@@ -71,6 +73,10 @@ body {
   .saveBtn i:hover {
     font-size: 20px;
     transition: all 0.3s ease-in-out;
+  }
+
+  .col-sm-2 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
 
   
